@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.343375">
+<testcase classname="Search for an Iphone on Google.co.uk" name="Search for an Iphone on google.co.uk" time="14.343375">
+<system-out><![CDATA[Given A user is on Google UK Website........................................passed
+When The user searches for Iphone...........................................passed
+And finds the link that points to Amazon UK.................................passed
+And Navigates to the result with maximum memory.............................passed
+Then print the name and price of the product................................passed
+And validate if the price is not greater that £800..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
