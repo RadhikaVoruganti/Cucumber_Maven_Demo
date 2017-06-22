@@ -93,8 +93,9 @@ public class StepDefinition_TectTest extends WebDriverUtil{
 
 	@Then("^validate if the price is not greater that £(\\d+)$")
 	public void validate_if_the_price_is_not_greater_that_£(int arg1) throws Throwable {
-		System.out.println( driver.findElement(AmazonPDP.price).getText());
-	   
+	   String price =  driver.findElement(AmazonPDP.price).getText().substring(1);
+	   int priceShown = Integer.parseInt(price);
+	   assertEquals(true, priceShown<800.00);
 	}
 	
 	@After

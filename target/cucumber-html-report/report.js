@@ -81,7 +81,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2244342658,
+  "duration": 3783452948,
   "status": "passed"
 });
 formatter.scenario({
@@ -132,52 +132,16 @@ formatter.match({
   "location": "StepDefinition_TectTest.a_user_is_on_Google_UK_Website()"
 });
 formatter.result({
-  "duration": 3349464783,
+  "duration": 2100799010,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition_TectTest.the_user_searches_for_Iphone()"
 });
 formatter.result({
-  "duration": 119631067,
+  "duration": 121425330,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition_TectTest.finds_the_link_that_points_to_amazon_co_uk()"
-});
-formatter.result({
-  "duration": 7823284801,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition_TectTest.navigates_to_the_result_with_maximum_memory()"
-});
-formatter.result({
-  "duration": 465276435,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition_TectTest.print_the_name_and_price_of_the_product()"
-});
-formatter.result({
-  "duration": 44009659,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "800",
-      "offset": 43
-    }
-  ],
-  "location": "StepDefinition_TectTest.validate_if_the_price_is_not_greater_that_£(int)"
-});
-formatter.result({
-  "duration": 32408330,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 264957648,
-  "status": "passed"
-});
 });
